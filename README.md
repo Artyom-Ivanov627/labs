@@ -1,7 +1,7 @@
 ## Отчет о лабораторных работах
 ## Cтудент группы ИДБ-17-06 Иванов А.Э.
 # Лабораторная 1. 
-![](https://github.com/Artyom-Ivanov627/Lab1/blob/main/model.png)
+![](https://github.com/Artyom-Ivanov627/labs/blob/main/lab1/model.png)
 
 Строитель строит дом в соответствии с нормативной документацией с помощью бетона и строительного крана.
 
@@ -12,7 +12,7 @@ class Строитель {
 }
 @enduml
 
-![Рисунок](http://www.plantuml.com/plantuml/png/ROz12e9058RtSugtBEWGNaNIAD22j9K8PT2cm2D4Dx18C7EcA_plHlrYK8jsZ_TzxsF6Ir9_dMxYo4mZFqa45orq2uT62zHuwaao8vBD5c4Kv7ymh1xn4BHSLx2z6uVfVDNBPpZTVG_OmfrZ9oDSKRFWO2S22qUbGyLDWniift9GMzqJrB14bHvOASUyUFs42OStVE8cDrwu3FYbDm00)
+![Рисунок](https://github.com/Artyom-Ivanov627/labs/blob/main/lab1/uml.png)
 
 @startuml
 :монтажник: <- :строитель:
@@ -21,7 +21,7 @@ class Строитель {
 :строительный кран: -> :строительное оборудование:
 @enduml
 
-![Рисунок](http://www.plantuml.com/plantuml/png/hP0_pe9G40TxJh7bznLSuCKOhc8Y_adG0h57BEKmQCGWyjOhpDx8fvK5fUrlPwROP5VCycA_oIB7WEAjek66fwDtCed5sS4gAr6wS6jvMEsYiL7YVBrS5R7yyKI_0Qk5AyhmFoRYxSHTwCFSu4CdInU_o4nb54Df1UMCMcd7J_BoLkXeNPIastdunmi0)
+![Рисунок](https://github.com/Artyom-Ivanov627/labs/blob/main/lab1/class.png)
 
 # Лабораторная 2.
 На диаграмме изображён процесс постройки дома.
