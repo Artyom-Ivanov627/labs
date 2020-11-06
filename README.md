@@ -63,6 +63,7 @@ DFD диаграмма:
 
 ER-диаграмма
 
-Текст и рисунок диаграммы классов.
+[Текст](https://github.com/Artyom-Ivanov627/labs/blob/main/lab3/Код%20ER.txt) и [рисунок](https://github.com/Artyom-Ivanov627/labs/blob/main/lab3/ER.png) диаграммы классов.
+![](https://github.com/Artyom-Ivanov627/labs/blob/main/lab3/ER.png)
 
 Техническое задание - это запись в базе данных, которая относится к информационным потокам, и состоит из: даты, описания, срока.
