@@ -1,0 +1,13 @@
+@startuml
+actor ":Администратор" as owner
+boundary "Веб-приложение" as app
+entity "Данные" as data
+boundary "Веб-приложение" as appmob
+actor ":Строитель" as trainee
+owner -> app : Запрос
+app -> data : Обработка
+data -> appmob : Техническое задание
+appmob -> trainee : Данные ТЗ
+trainee -> appmob : Подтверждение
+appmob -> data : Обработка
+@enduml
