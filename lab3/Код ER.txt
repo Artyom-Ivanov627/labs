@@ -1,0 +1,27 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class ControlInfo as "Информационный поток"
+
+class DataLog as "Запись в базе данных"
+
+class TechnicalSpecification as "Техническое задание"
+
+class Data as "Дата"
+class Description as "Описание"
+class Time as "Срок"
+
+ControlInfo <|-- DataLog 
+DataLog <|-- TechnicalSpecification 
+TechnicalSpecification *-- Data
+TechnicalSpecification *-- Description
+TechnicalSpecification *-- Time
+
+hide members
+hide circle
+hide methods
+@enduml
